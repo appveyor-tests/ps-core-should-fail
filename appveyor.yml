@@ -1,0 +1,5 @@
+build: off
+
+test_script:
+- pwsh: .\test-ok.ps1
+- pwsh: .\test-bad.ps1
